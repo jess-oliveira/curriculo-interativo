@@ -14,6 +14,8 @@ Desenvolver um currículo profissional interativo, que também funcione como dem
 
 O projeto busca substituir a apresentação profissional estática em PDF por uma aplicação web que permita ao recrutador consultar informações profissionais, filtrar competências e acessar evidências práticas dos conhecimentos apresentados.
 
+O projeto também tem como objetivo aplicar conhecimentos de análise de requisitos, modelagem de sistemas, desenvolvimento web, versionamento e testes de software.
+
 # 2. Público-alvo e envolvidos
 
 ### 2.1. Proprietária do currículo
@@ -50,14 +52,14 @@ A proposta é desenvolver uma aplicação web que facilite a consulta das inform
 
 **Currículo interativo — Aplicação web**
 
-- Recrutador acessa a página profissional.
+- O recrutador acessa a página profissional.
 - Visualiza as informações organizadas em seções.
-- Consulta habilidades técnicas e comportamentais.
-- Filtra competências de acordo com o que procura.
-- Visualiza somente as competências selecionadas.
-- Expande informações complementares e evidências associadas às competências.
-- Consulta projetos e suas respectivas documentações.
-- Acessa LinkedIn, GitHub e contato.
+- Consulta habilidades técnicas e competências comportamentais.
+- Utiliza filtros por categorias e habilidades de interesse.
+- Visualiza somente as habilidades selecionadas após a aplicação dos filtros.
+- Consulta demonstrações práticas associadas às habilidades, quando houver evidências disponíveis.
+- Consulta formações e cursos relacionados às habilidades.
+- Acessa LinkedIn, GitHub e informações de contato.
 
 # 5. Escopo do projeto
 
@@ -68,9 +70,12 @@ A proposta é desenvolver uma aplicação web que facilite a consulta das inform
 - Formação acadêmica e cursos.
 - Habilidades técnicas (Hard Skills).
 - Competências comportamentais (Soft Skills).
-- Filtros de competências.
-- Exibição de evidências associadas às habilidades.
-- Documentação dos projetos.
+- Filtros por categorias e habilidades.
+- Seleção de uma ou várias habilidades.
+- Exibição dos resultados conforme os filtros selecionados.
+- Limpeza dos filtros.
+- Exibição de evidências práticas associadas às habilidades, quando disponíveis.
+- Exibição de formações e cursos relacionados às habilidades.
 - Links externos para LinkedIn e GitHub.
 - Contato pelo WhatsApp.
 - Navegação por seções em uma única página.
@@ -89,74 +94,62 @@ A proposta é desenvolver uma aplicação web que facilite a consulta das inform
 
 ## 6.1. Requisitos funcionais (RF)
 
-| ID | Requisito |
-|---|---|
-| RF01 | Exibir informações pessoais e profissionais. |
-| RF02 | Exibir experiências profissionais. |
-| RF03 | Exibir formação acadêmica e cursos. |
-| RF04 | Exibir habilidades técnicas (Hard Skills). |
-| RF05 | Exibir competências comportamentais (Soft Skills). |
-| RF06 | Permitir filtrar habilidades técnicas. |
-| RF07 | Permitir filtrar competências comportamentais. |
-| RF08 | Exibir somente as competências correspondentes aos filtros selecionados. |
-| RF09 | Permitir selecionar múltiplas competências simultaneamente. |
-| RF10 | Permitir limpar os filtros e restaurar a visualização completa. |
-| RF11 | Exibir evidências relacionadas às competências selecionadas. |
-| RF12 | Permitir expandir informações complementares de uma competência. |
-| RF13 | Permitir expandir a documentação prática dos projetos associados. |
-| RF14 | Permitir recolher os conteúdos expandidos sem sair da página. |
-| RF15 | Disponibilizar acesso ao LinkedIn. |
-| RF16 | Disponibilizar acesso ao GitHub. |
-| RF17 | Disponibilizar contato pelo WhatsApp. |
-| RF18 | Disponibilizar links para documentações e materiais dos projetos. |
+6.1. Requisitos funcionais (RF)
+ID	Requisito
+RF01	Exibir informações pessoais e profissionais.
+RF02	Exibir experiências profissionais.
+RF03	Exibir formação acadêmica e cursos.
+RF04	Exibir habilidades técnicas (Hard Skills).
+RF05	Exibir competências comportamentais (Soft Skills).
+RF06	Organizar as habilidades por categorias.
+RF07	Disponibilizar as habilidades para seleção nos filtros.
+RF08	Permitir a seleção múltipla de habilidades, inclusive de categorias diferentes.
+RF09	Atualizar os resultados automaticamente após a seleção dos filtros.
+RF10	Exibir somente as habilidades correspondentes aos filtros selecionados.
+RF11	Manter as categorias de filtros disponíveis durante a filtragem.
+RF12	Permitir limpar os filtros e restaurar a visualização completa.
+RF13	Exibir demonstrações práticas expansíveis e links para os projetos completos no GitHub, quando houver evidências disponíveis.
+RF14	Exibir formações e cursos relacionados às habilidades.
+RF15	Manter as informações de formação visíveis independentemente da demonstração prática estar expandida ou recolhida.
+RF16	Disponibilizar um menu de navegação entre as seções da página.
+RF17	Disponibilizar acesso ao perfil profissional no LinkedIn.
+RF18	Disponibilizar acesso ao perfil no GitHub.
+RF19	Disponibilizar contato pelo WhatsApp.
 
 ## 6.2. Requisitos não funcionais (RNF)
 
-| ID | Requisito |
-|---|---|
-| RNF01 | A aplicação deve possuir layout responsivo. |
-| RNF02 | Deve funcionar nos principais navegadores modernos. |
-| RNF03 | Deve apresentar boa legibilidade e organização visual. |
-| RNF04 | Deve possuir navegação intuitiva. |
-| RNF05 | Deve apresentar desempenho adequado no carregamento. |
-| RNF06 | Deve permitir navegação por teclado e considerar critérios de acessibilidade. |
-| RNF07 | O código deve possuir organização e separação de responsabilidades. |
+ID	Requisito
+RNF01	A aplicação deve possuir layout responsivo.
+RNF02	Deve funcionar nos principais navegadores modernos.
+RNF03	Deve apresentar boa legibilidade e organização visual.
+RNF04	Deve possuir navegação intuitiva.
+RNF05	A aplicação deverá apresentar desempenho adequado durante o carregamento e a utilização dos filtros.
+RNF06	Deve permitir navegação por teclado e considerar critérios de acessibilidade.
+RNF07	O código deve possuir organização, legibilidade e separação de responsabilidades, facilitando sua manutenção.
+RNF08	A documentação técnica do projeto deve ser clara e organizada, facilitando a compreensão e a manutenção.
 
 # 7. Regras de negócio (RN)
 
-| ID | Regra |
-|---|---|
-| RN01 | O recrutador terá acesso somente para consulta das informações. |
-| RN02 | A atualização das informações será realizada diretamente nos arquivos do projeto. |
-| RN03 | As competências devem ser classificadas entre Hard Skills e Soft Skills. |
-| RN04 | Uma competência poderá possuir mais de uma evidência associada. |
-| RN05 | Uma evidência poderá estar relacionada a mais de uma competência. |
-| RN06 | Ao selecionar competências nos filtros, somente as competências correspondentes deverão ser apresentadas. |
-| RN07 | Ao limpar os filtros, todas as competências deverão voltar a ser exibidas. |
-| RN08 | A documentação complementar deverá ser apresentada na própria página, por meio de conteúdo expansível. |
+ID	Regra
+RN01	O recrutador terá acesso somente para consulta das informações.
+RN02	A atualização das informações será realizada diretamente nos arquivos do projeto.
+RN03	As habilidades deverão ser organizadas conforme suas categorias de conhecimento.
+RN04	Uma habilidade poderá estar relacionada a mais de uma formação ou curso.
+RN05	Uma habilidade poderá possuir mais de uma evidência prática associada.
+RN06	Uma mesma evidência prática poderá estar relacionada a diferentes habilidades.
+RN07	Somente habilidades correspondentes aos filtros selecionados deverão ser exibidas.
+RN08	Ao limpar os filtros, todas as habilidades deverão voltar a ser exibidas.
+RN09	A demonstração prática somente será disponibilizada quando houver evidência relacionada à habilidade.
+RN10	As informações de formação deverão permanecer visíveis independentemente de a demonstração prática estar expandida ou recolhida.
+RN11	A ausência de evidência prática não impedirá a apresentação da habilidade e de sua formação relacionada, quando houver.
 
-# 8. Decisões iniciais de interface e navegação
+# 8. Restrições e limitações
 
-- A aplicação será organizada em uma única página.
-- A navegação será dividida em seções.
-- As competências serão apresentadas por categorias.
-- Os filtros permitirão seleção múltipla.
-- Os resultados filtrados substituirão temporariamente a visualização completa das competências.
-- Cada competência poderá apresentar evidências relacionadas.
-- A documentação poderá ser expandida e recolhida sem redirecionamento para outra página.
-- Links externos poderão direcionar o recrutador para materiais completos no GitHub.
-
-# 9. Pendências para validação
-
-- Definir a organização visual definitiva das seções.
-- Definir os campos e informações de cada competência.
-- Definir a estrutura das evidências associadas.
-- Validar a lista de habilidades e suas respectivas categorias.
-- Detalhar os critérios de aceitação dos requisitos.
-- Definir as tecnologias e a arquitetura da aplicação.
-
----
+ID	Restrição ou limitação
+RL01	A primeira versão não possuirá painel administrativo.
+RL02	A aplicação não possuirá sistema de login ou autenticação.
+RL03	As informações serão atualizadas diretamente nos arquivos do projeto.
+RL04	Não haverá banco de dados para armazenamento dinâmico das informações.
+RL05	A manutenção do currículo dependerá de alterações manuais no conteúdo da aplicação.
 
 **Documento elaborado durante a fase de concepção e análise de requisitos.**
-
-**Próxima etapa:** Refinamento e validação dos requisitos antes do início da modelagem do sistema.

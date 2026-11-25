@@ -3,8 +3,6 @@
 <<<<<<< HEAD:docs/03-modelagem-do-sistema/BPMN/BPMN-TO-BE.drawio
     <mxGraphModel dx="3117" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#4D4D4D)" math="0" shadow="0">
 =======
-    <mxGraphModel dx="3550" dy="1044" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#4D4D4D)" math="0" shadow="0">
->>>>>>> fb55bf4af51d1e8ef10559ceb85aa7237cecf8d8:BPMN-TO-BE.drawio
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

@@ -9,7 +9,6 @@
   - Habilidades;
   - Formação;
   - Experiência profissional;
-  - Projetos;
   - Contato.
 - Inicialmente, todo o conteúdo do currículo estará visível, sem necessidade de aplicar filtros.
 
@@ -29,6 +28,7 @@
 - Após a seleção, somente as habilidades selecionadas serão exibidas na área de resultados.
 - Os tópicos de filtros permanecerão disponíveis para permitir novas seleções, mesmo quando outras habilidades estiverem ocultas.
 - Haverá um botão **Limpar filtros**, que restaurará a visualização completa das habilidades.
+- Será apresentada uma orientação ao recrutador: “Para visualizar detalhes e evidências das habilidades, selecione uma ou mais habilidades de interesse.”
 
 ## 3. Exibição das evidências práticas
 

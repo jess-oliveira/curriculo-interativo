@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="TO-BE" id="CaVJIvz0_1bxM206cKXR">
-    <mxGraphModel dx="2004" dy="436" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#4D4D4D)" math="0" shadow="0">
+    <mxGraphModel dx="2807" dy="855" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#4D4D4D)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,7 +68,7 @@
         <mxCell id="Ht093uDGdj4J3ui9AMmz-31" parent="Ht093uDGdj4J3ui9AMmz-6" style="sketch=0;outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.gear;labelPerimeter=1;fillColor=light-dark(#f5f5f5, #a1a1a1);strokeColor=#666666;textShadow=0;fillStyle=solid;fontColor=#333333;gradientColor=default;gradientDirection=north;" value="&lt;span&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;SISTEMA&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="60" x="5" y="224" as="geometry" />
         </mxCell>
-        <mxCell id="XiPQ5Dax7ImDQcF6wcpD-47" parent="Ht093uDGdj4J3ui9AMmz-6" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=16;fontStyle=0" value="&lt;span&gt;Filtrar automaticamente as habilidades selecionadas.&lt;/span&gt;" vertex="1">
+        <mxCell id="XiPQ5Dax7ImDQcF6wcpD-47" parent="Ht093uDGdj4J3ui9AMmz-6" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=16;fontStyle=0" value="Filtrar automaticamente as habilidades selecionadas, ocultando as não selecionadas." vertex="1">
           <mxGeometry height="120" width="141" x="834" y="35" as="geometry" />
         </mxCell>
         <mxCell id="Ht093uDGdj4J3ui9AMmz-4" parent="Ht093uDGdj4J3ui9AMmz-6" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=16;fontStyle=0" value="Exibir habilidades selecionadas em uma única página, com formações e evidências disponíveis." vertex="1">

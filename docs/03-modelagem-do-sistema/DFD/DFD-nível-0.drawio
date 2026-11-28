@@ -1,0 +1,75 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DFD-0" id="Vkw16rEYg1F9l0aTOrFm">
+    <mxGraphModel dx="2289" dy="1462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="light-dark(#FFFFFF,#CCCCCC)" backgroundGradient="light-dark(#FFFFFF,#8C8C8C)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-9" edge="1" parent="1" source="D9uZhg9BWmW6DLKhSZ8Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;strokeWidth=5;exitX=0.123;exitY=0.832;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.002;entryY=0.958;entryDx=0;entryDy=0;entryPerimeter=0;" target="D9uZhg9BWmW6DLKhSZ8Y-4">
+          <mxGeometry relative="1" x="-0.0767" as="geometry">
+            <Array as="points" />
+            <mxPoint x="894.9" y="557" as="sourcePoint" />
+            <mxPoint x="395" y="557" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-18" connectable="0" parent="D9uZhg9BWmW6DLKhSZ8Y-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontColor,textOpacity,labelBorderWidth,labelPadding;labelPadding=0 4;fontSize=20;labelBackgroundColor=light-dark(#d5e8d4, #446e2c);labelBorderColor=#82b366;fontStyle=3;fontFamily=Times New Roman;" value="Links de contato ( Whatsapp, LinkedIn e GitHub)" vertex="1">
+          <mxGeometry relative="1" x="-0.0411" as="geometry">
+            <mxPoint x="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-10" edge="1" parent="1" source="D9uZhg9BWmW6DLKhSZ8Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;strokeWidth=5;exitX=0.048;exitY=0.692;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.767;entryDx=0;entryDy=0;entryPerimeter=0;" target="D9uZhg9BWmW6DLKhSZ8Y-4">
+          <mxGeometry relative="1" x="-0.4518" as="geometry">
+            <mxPoint x="865" y="516" as="sourcePoint" />
+            <mxPoint x="395" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-17" connectable="0" parent="D9uZhg9BWmW6DLKhSZ8Y-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontColor,textOpacity,labelBorderWidth,labelPadding;labelPadding=0 4;fontSize=20;labelBackgroundColor=light-dark(#d5e8d4, #446e2c);labelBorderColor=#82b366;fontStyle=3;fontFamily=Times New Roman;" value="Habilidades e respectivas evidências" vertex="1">
+          <mxGeometry relative="1" x="0.0342" y="-1" as="geometry">
+            <mxPoint x="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-11" edge="1" parent="1" source="D9uZhg9BWmW6DLKhSZ8Y-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;entryX=0.993;entryY=0.58;entryDx=0;entryDy=0;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;strokeWidth=5;exitX=0.011;exitY=0.555;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" target="D9uZhg9BWmW6DLKhSZ8Y-4">
+          <mxGeometry relative="1" x="-0.0055" as="geometry">
+            <mxPoint x="854.9999999999998" y="475.9999999999999" as="sourcePoint" />
+            <mxPoint x="395" y="475.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-16" connectable="0" parent="D9uZhg9BWmW6DLKhSZ8Y-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontColor,textOpacity,labelBorderWidth,labelPadding;labelPadding=0 4;fontSize=20;labelBackgroundColor=light-dark(#d5e8d4, #446e2c);labelBorderColor=#82b366;fontStyle=3;fontFamily=Times New Roman;" value="Dados profissionais do currículo" vertex="1">
+          <mxGeometry relative="1" x="-0.0176" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-2" parent="1" style="shape=ellipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;perimeter=ellipsePerimeter;fillColor=light-dark(#d5e8d4, #234216);strokeColor=#82b366;fontFamily=Times New Roman;fontSize=34;textShadow=0;labelBorderColor=none;gradientColor=light-dark(#97d077, #a3d589);" value="CURRÍCULO INTERATIVO" vertex="1">
+          <mxGeometry height="290" width="290" x="855" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-6" edge="1" parent="1" source="D9uZhg9BWmW6DLKhSZ8Y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;strokeWidth=5;curved=0;exitX=1.001;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.146;entryY=0.157;entryDx=0;entryDy=0;entryPerimeter=0;" target="D9uZhg9BWmW6DLKhSZ8Y-2">
+          <mxGeometry relative="1" x="0.2351" as="geometry">
+            <Array as="points">
+              <mxPoint x="882" y="360.7" />
+            </Array>
+            <mxPoint x="399" y="360" as="sourcePoint" />
+            <mxPoint x="889.91" y="360.03999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-13" connectable="0" parent="D9uZhg9BWmW6DLKhSZ8Y-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontColor,textOpacity,labelBorderWidth,labelPadding;labelPadding=0 4;labelBackgroundColor=light-dark(#dae8fc, #5c79a3);labelBorderColor=none;fontSize=20;spacing=0;spacingTop=-1;fontStyle=3;fontFamily=Times New Roman;" value="&lt;span style=&quot;color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;Solicitação de visualização do currículo.&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2192" as="geometry">
+            <mxPoint x="-79" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-4" parent="1" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;fontSize=34;textShadow=0;labelBorderColor=none;fontFamily=Times New Roman;" value="&lt;font&gt;RECRUTADOR&lt;/font&gt;" vertex="1">
+          <mxGeometry height="210" width="370" x="25" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-7" edge="1" parent="1" source="D9uZhg9BWmW6DLKhSZ8Y-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.042;entryY=0.318;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;labelPadding=0 4;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;strokeWidth=5;curved=0;" target="D9uZhg9BWmW6DLKhSZ8Y-2">
+          <mxGeometry relative="1" x="0.0328" as="geometry" />
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-15" connectable="0" parent="D9uZhg9BWmW6DLKhSZ8Y-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=fontColor,textOpacity,labelBorderWidth,labelPadding;labelPadding=0 4;labelBackgroundColor=light-dark(#dae8fc, #5c79a3);labelBorderColor=#6c8ebf;fontSize=20;spacing=0;spacingTop=2;fontFamily=Times New Roman;fontStyle=3" value="Seleção de habilidades para filtragem." vertex="1">
+          <mxGeometry relative="1" x="-0.1107" as="geometry">
+            <mxPoint x="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D9uZhg9BWmW6DLKhSZ8Y-21" parent="1" style="verticalLabelPosition=middle;verticalAlign=middle;html=1;shape=mxgraph.basic.plaque;dx=6;whiteSpace=wrap;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;labelPosition=center;align=center;fontFamily=Times New Roman;fontSize=43;labelBorderColor=none;textShadow=1;" value="DFD — Diagrama de Contexto (Nível 0)" vertex="1">
+          <mxGeometry height="85" width="1130" x="20" y="21" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
